@@ -21,9 +21,9 @@ export function generate({ tag, country, name, language }) {
       if (tag) {
         title += `${tag} `;
       }
-      title += 'mentors';
+      title += 'professores';
       if (country) {
-        title += ` from ${countries[country]}`;
+        title += ` de ${countries[country]}`;
       }
     }
   }
