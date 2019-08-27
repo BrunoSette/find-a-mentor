@@ -6,11 +6,11 @@ import tags from './tags';
 const languages = ISO6391.getLanguages(ISO6391.getAllCodes());
 const emailPattern = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 const urlPattern = /^https:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_+.~#?&//=]*)$/;
-const linkedinPattern = /^[A-Za-z0-9-]{3,100}$/;
+// const linkedinPattern = /^[A-Za-z0-9-]{3,100}$/;
 
 const emailValidation = value => !value || emailPattern.test(value);
 const urlValidation = value => !value || urlPattern.test(value);
-const linkedinValidation = value => !value || linkedinPattern.test(value);
+// const linkedinValidation = value => !value || linkedinPattern.test(value);
 
 export default {
   email: {
@@ -29,11 +29,11 @@ export default {
     validate: value => !!value && (value.length > 3 && value.length <= 50),
   },
   avatar: {
-    label: 'Avatar',
+    label: 'Foto',
     type: 'text',
     defaultValue: '',
     validate: value => !!value && urlValidation(value),
-    helpText: 'https public URL to an image file',
+    helpText: 'Link de uma imagem',
     previewImage: true,
   },
   title: {
@@ -49,7 +49,7 @@ export default {
     defaultValue: '',
     maxLength: 140,
     validate: value => !value || (value.length > 3 && value.length <= 140),
-    helpText: 'Empty or 3-140 characters',
+    helpText: 'Vazio ou entre 3 e 140 caracteres',
     style: {
       width: '100%',
     },
@@ -87,7 +87,7 @@ export default {
     helpText: 'Até 5',
   },
   channels: {
-    label: 'Channels',
+    label: 'Contatos',
     type: 'keyvalue',
     defaultValue: [],
     options: [
@@ -104,7 +104,7 @@ export default {
     style: {
       width: '100%',
     },
-    helpText: 'Up to 3',
+    helpText: 'Até 3',
     validate: options => options.length > 0,
   },
 };
