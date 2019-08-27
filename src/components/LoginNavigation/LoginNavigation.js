@@ -9,7 +9,7 @@ function LoginNavigation() {
 
   return (
     <LoginArea>
-      <LoginAreaItem onClick={login}>Login / Sign up</LoginAreaItem>
+      <LoginAreaItem onClick={login}>Login / Inscrever-se</LoginAreaItem>
     </LoginArea>
   );
 }

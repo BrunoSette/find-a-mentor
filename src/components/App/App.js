@@ -7,7 +7,7 @@ import styled from 'styled-components';
 import classNames from 'classnames';
 import MentorsList from '../MentorsList/MentorsList';
 import Filter from '../Filter/Filter';
-import SocialLinks from '../SocialLinks/SocialLinks';
+// import SocialLinks from '../SocialLinks/SocialLinks';
 import Header from '../Header/Header';
 import Modal from '../Modal/Modal';
 import ModalContent from '../Modal/ModalContent';
@@ -214,7 +214,7 @@ class App extends Component {
                 clickedCountry={clickedCountry}
                 mentors={mentorsInList}
               />
-              <SocialLinks />
+              {/* <SocialLinks /> */}
               <nav className="sidebar-nav">
                 <ModalContent
                   policyTitle={'Cookies policy'}
@@ -245,7 +245,7 @@ class App extends Component {
                   }
                 />
               </nav>
-              <a
+              {/* <a
                 href="https://www.patreon.com/codingcoach_io"
                 className="patreon-link"
                 aria-label="Become a Patreon. A Patreon is a person who helps economically a project he or she believes in."
@@ -256,7 +256,7 @@ class App extends Component {
                   src={`${process.env.PUBLIC_URL}/images/coding-coach-patron-button.jpg`}
                   alt="Become a Patron"
                 />
-              </a>
+              </a> */}
             </aside>
             <MentorsList
               className={classNames({

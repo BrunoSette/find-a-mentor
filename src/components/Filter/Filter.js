@@ -58,7 +58,8 @@ export default class Filter extends Component {
     return (
       <section aria-labelledby="filter" className="filter-wrapper">
         <h3 id="filter">
-          Filter <span id="mentorCount">{this.props.mentorCount} Mentors</span>
+          Filtro{' '}
+          <span id="mentorCount">{this.props.mentorCount} Professores</span>
           <button
             className="toggle-filter"
             onClick={this.onToggleFilter}
@@ -73,7 +74,7 @@ export default class Filter extends Component {
           </button>
         </h3>
         <div className="inputs" aria-expanded={showFilters}>
-          <Input id="technology" label="Technology" key="technology">
+          <Input id="technology" label="Aulas de" key="technology">
             <AutoComplete
               id="technology"
               source={tags}
@@ -83,7 +84,7 @@ export default class Filter extends Component {
               data-testid="technology-filter-autocomplete"
             />
           </Input>
-          <Input id="country" label="Country" key="country">
+          <Input id="country" label="Cidade" key="country">
             <AutoComplete
               id="country"
               source={countries}
@@ -93,7 +94,7 @@ export default class Filter extends Component {
               data-testid="country-filter-autocomplete"
             />
           </Input>
-          <Input id="name" label="Name" key="name">
+          <Input id="name" label="Nome" key="name">
             <AutoComplete
               id="name"
               source={names}
@@ -103,7 +104,7 @@ export default class Filter extends Component {
               data-testid="name-filter-autocomplete"
             />
           </Input>
-          <Input id="language" label="Language" key="language">
+          <Input id="language" label="Língua" key="language">
             <AutoComplete
               id="language"
               source={languages}
@@ -112,7 +113,7 @@ export default class Filter extends Component {
               data-testid="language-filter-autocomplete"
             />
           </Input>
-          <Switch id="fav" label="My Favorites" onToggle={onToggleSwitch} />
+          <Switch id="fav" label="Meus Favoritos" onToggle={onToggleSwitch} />
         </div>
       </section>
     );

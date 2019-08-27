@@ -14,7 +14,7 @@ const linkedinValidation = value => !value || linkedinPattern.test(value);
 
 export default {
   email: {
-    label: 'Email',
+    label: 'E-mail',
     type: 'text',
     defaultValue: '',
     disabled: true,
@@ -25,7 +25,7 @@ export default {
     type: 'text',
     defaultValue: '',
     maxLength: 50,
-    helpText: 'Please use your real name',
+    helpText: 'Seu nome',
     validate: value => !!value && (value.length > 3 && value.length <= 50),
   },
   avatar: {
@@ -44,7 +44,7 @@ export default {
     validate: value => !!value && (value.length > 3 && value.length <= 50),
   },
   description: {
-    label: 'Description',
+    label: 'Descrição',
     type: 'longtext',
     defaultValue: '',
     maxLength: 140,
@@ -55,7 +55,7 @@ export default {
     },
   },
   country: {
-    label: 'Country',
+    label: 'Cidade',
     type: 'select',
     defaultValue: '',
     options: Object.entries(countries).map(([code, name]) => ({
@@ -65,7 +65,7 @@ export default {
     validate: option => !!option.value,
   },
   spokenLanguages: {
-    label: 'Spoken Languages',
+    label: 'Línguas',
     type: 'tags',
     defaultValue: [],
     options: languages.map(lang => ({
@@ -84,7 +84,7 @@ export default {
     },
     options: tags.map(tag => ({ value: tag, label: tag })),
     validate: options => !!options.length,
-    helpText: 'Up to 5',
+    helpText: 'Até 5',
   },
   channels: {
     label: 'Channels',
@@ -97,35 +97,9 @@ export default {
         prefix: 'mailto:',
         validate: emailValidation,
       },
-      {
-        value: 'linkedin',
-        label: 'LinkedIn',
-        prefix: 'https://linkedin.com/in/',
-        validate: value => linkedinValidation(value),
-      },
       { value: 'facebook', label: 'Facebook', prefix: 'https://facebook.com/' },
       { value: 'twitter', label: 'Twitter', prefix: 'https://twitter.com/@' },
       { value: 'github', label: 'Github', prefix: 'https://github.com/' },
-      {
-        value: 'website',
-        label: 'Website',
-        prefix: 'https://',
-        validate: value => urlValidation(`https://${value}`),
-      },
-      {
-        value: 'slack',
-        label: 'Slack',
-        prefix: 'https://coding-coach.slack.com/team/',
-        helpText: (
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://medium.com/@moshfeu/how-to-find-my-member-id-in-slack-workspace-d4bba942e38c#88b8"
-          >
-            How to find SlackId?
-          </a>
-        ),
-      },
     ],
     style: {
       width: '100%',

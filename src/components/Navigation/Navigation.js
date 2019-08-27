@@ -29,7 +29,7 @@ function Navigation({ isAuthenticated, onOpenModal }) {
 
   const openProfile = e => {
     e.preventDefault();
-    onOpenModal('Edit Your Pofile', <EditProfile user={currentUser} />);
+    onOpenModal('Edite Seu Perfil', <EditProfile user={currentUser} />);
   };
 
   const renderBecomeAMentor = () => {
@@ -39,13 +39,13 @@ function Navigation({ isAuthenticated, onOpenModal }) {
     if (isAuthenticated) {
       return (
         <Link href="#" onClick={openProfile}>
-          Become a Mentor
+          Cadastre-se como professor
         </Link>
       );
     }
     return (
       <Link href="#" onClick={e => e.preventDefault() || auth.login(true)}>
-        Become a Mentor
+        Cadastre-se como professor
       </Link>
     );
   };
@@ -53,7 +53,7 @@ function Navigation({ isAuthenticated, onOpenModal }) {
   return (
     <Nav id="menu">
       <List>
-        <Link href="https://codingcoach.io/">About</Link>
+        <Link href="https://codingcoach.io/">Sobre</Link>
         {renderBecomeAMentor()}
       </List>
     </Nav>

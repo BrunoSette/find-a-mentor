@@ -26,7 +26,7 @@ function MemberArea(props) {
 
   const openProfile = () => {
     props.onOpenModal(
-      'Edit Your Pofile',
+      'Edite Seu Perfil',
       <EditProfile user={currentUser} onUserUpdated={setCurrentUser} />
     );
   };
@@ -83,10 +83,10 @@ function MemberArea(props) {
               )}
               <MemberMenuItem onClick={openProfile}>
                 {isMentor(currentUser)
-                  ? 'Edit your profile'
-                  : 'Become a mentor'}
+                  ? 'Edite seu perfil'
+                  : 'Seja um professor'}
               </MemberMenuItem>
-              <MemberMenuItem onClick={logout}>Logout</MemberMenuItem>
+              <MemberMenuItem onClick={logout}>Sair</MemberMenuItem>
             </MemberMenu>
           )}
         </>

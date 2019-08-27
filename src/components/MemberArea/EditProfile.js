@@ -162,7 +162,7 @@ export default class EditProfile extends Component {
                   (this.state.user[fieldName] || []).length === config.maxItems
                     ? [
                         {
-                          label: 'Reached max items',
+                          label: 'Alcançou número maximo de itens',
                           value: undefined,
                           isDisabled: true,
                         },
