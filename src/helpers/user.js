@@ -1,6 +1,6 @@
 import ISO6391 from 'iso-639-1';
 // import countries from 'svg-country-flags/countries.json';
-import countries from './utils/cidades.json';
+import countries from '../utils/cidades.json';
 
 export function isMentor(user) {
   return user && user.roles.includes('Mentor');
