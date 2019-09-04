@@ -31,22 +31,22 @@ function MobileNavigation(props) {
 
       <ContentWrapper>
         <ModalContent
-          policyTitle={'Cookies policy'}
+          policyTitle={'Política de Cookies'}
           content={'cookies-policy'}
           handleModal={(title, content) => handleModal({ title, content })}
         />
         <ModalContent
-          policyTitle={'Code of Conduct'}
+          policyTitle={'Código de Conduta'}
           content={'code-conduct'}
           handleModal={(title, content) => handleModal({ title, content })}
         />
         <ModalContent
-          policyTitle={'Terms & Conditions'}
+          policyTitle={'Termos e Condições'}
           content={'terms-conditions'}
           handleModal={(title, content) => handleModal({ title, content })}
         />
         <ModalContent
-          policyTitle={'Privacy Statement'}
+          policyTitle={'Termos de Privacidade'}
           content={'privacy-policy'}
           handleModal={(title, content) => handleModal({ title, content })}
         />
