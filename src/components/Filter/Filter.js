@@ -107,7 +107,7 @@ export default class Filter extends Component {
               data-testid="name-filter-autocomplete"
             />
           </Input>
-          <Input id="language" label="Língua" key="language">
+          <Input id="language" label="Idiomas" key="language">
             <AutoComplete
               id="language"
               source={languages}

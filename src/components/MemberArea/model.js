@@ -66,7 +66,7 @@ export default {
     validate: option => !!option.value,
   },
   spokenLanguages: {
-    label: 'Línguas',
+    label: 'Idiomas',
     type: 'tags',
     defaultValue: [],
     options: languages.map(lang => ({
