@@ -293,14 +293,14 @@ export default class EditProfile extends Component {
           <div className="form-submit">
             {!!errors.length && (
               <div className="form-errors">
-                The following fields is missing or invalid: {errors.join(', ')}
+                Campos inválidos ou em branco: {errors.join(', ')}
               </div>
             )}
             <button className="submit" disabled={disabled}>
-              {isMentor(user) ? 'Save' : 'Become a Mentor'}
+              {isMentor(user) ? 'Salvar' : 'Ser Professor'}
             </button>
             <button type="button" className="delete" onClick={this.onDelete}>
-              Delete account
+              Apagar conta
             </button>
             {disabled && <i className="fa fa-spin fa-spinner" />}
           </div>
