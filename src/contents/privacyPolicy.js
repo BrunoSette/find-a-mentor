@@ -1,10 +1,5 @@
 const privacyPolicy = `<h4>Effective date: October 03, 2018</h4>
 
-Coding Coach ("us", "we", or "our") operates the website and the Coding Coach mobile application (the "Service").
-
-This page informs you of our policies regarding the collection, use, and disclosure ofn personal data when you use our Service and the choices you have associated with that data. Our Privacy Policy for Coding Coach is managed through Free Privacy Policy.
-
-We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions.
-`;
+O Coding Coach ("nós", "nós" ou "nosso") opera o site e o aplicativo móvel Coding Coach (o "Serviço"). Esta página o informa de nossas políticas relacionadas à coleta, uso e divulgação de dados pessoais quando você usa nosso Serviço e as opções que você associou a esses dados. Nossa Política de Privacidade para o Coding Coach é gerenciada através da Política de Privacidade Gratuita. Usamos seus dados para fornecer e melhorar o Serviço. Ao usar o Serviço, você concorda com a coleta e o uso de informações de acordo com esta política. Salvo disposição em contrário nesta Política de Privacidade, os termos usados nesta Política de Privacidade têm os mesmos significados que em nossos Termos e Condições.`;
 
 export default privacyPolicy;

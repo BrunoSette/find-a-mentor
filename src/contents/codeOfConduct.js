@@ -1,30 +1,22 @@
-const cookiesPolicy = `<h1>Code of Conduct</h1>
-At Coding Coach, we value all our mentors, mentees, and contributors. Our goal is to make this a safe space where new and experienced developers can connect and learn from one another. Therefore, we do not tolerate any form of harassment or prejudice. This Code of Conduct applies to all Coding Coach spaces including but not limited to slack, email correspondence, and social media.
-
-Harassment includes but is not limited to:
+const cookiesPolicy = `<h1>Código de conduta</h1>
+No Coding Coach, valorizamos todos os nossos mentores, mentorados e colaboradores. Nosso objetivo é tornar esse espaço seguro, onde desenvolvedores novos e experientes podem se conectar e aprender uns com os outros. Portanto, não toleramos qualquer forma de assédio ou preconceito. Este Código de Conduta se aplica a todos os espaços do Coding Coach, incluindo, entre outros, folga, correspondência por email e mídia social. O assédio inclui, mas não se limita a:
 <ul>
-	<li>Offensive comments related to gender, gender identity and expression, sexual orientation, disability, mental illness, physical appearance, body size, age, race, or religion.</li>
-	<li>Deliberate misgendering or use of ‘dead’ or rejected names.</li>
-	<li>Physical contact and simulated physical contact (eg, textual descriptions like “hug” or “backrub”) without consent or after a request to stop.</li>
-	<li>Threats of violence.</li>
-	<li>Incitement of violence towards any individual, including encouraging a person to commit suicide or to engage in self-harm.</li>
-	<li>Deliberate intimidation.</li>
-	<li>Stalking or following.</li>
-	<li>Harassing photography or recording, including logging online activity for harassment purposes.</li>
-	<li>Unwelcome sexual attention such as sexual images or behaviour in spaces where they’re not appropriate.</li>
-	<li>Pattern of inappropriate social contact, such as requesting/assuming inappropriate levels of intimacy with others</li>
-	<li>Continued one-on-one communication after requests to cease.</li>
-	<li>Deliberate “outing” of any aspect of a person’s identity without their consent except as necessary to protect vulnerable people from intentional abuse.</li>
-	<li>Publication of non-harassing private communication.</li>
+	<li>Comentários ofensivos relacionados a gênero, identidade e expressão de gênero, orientação sexual, deficiência, doença mental, aparência física, tamanho corporal, idade, raça ou religião.</li>
+	<li>Deliberação equivocada ou uso de nomes "mortos" ou rejeitados.</li>
+	<li>Contato físico e contato físico simulado (por exemplo, descrições textuais como “abraço” ou “backrub”) sem consentimento ou após uma solicitação para parar.</li>
+	<li>Ameaças de violência.</li>
+	<li>Incitação à violência contra qualquer indivíduo, inclusive encorajando uma pessoa a cometer suicídio ou a se auto-prejudicar.</li>
+	<li>Intimidação deliberada.</li>
+	<li>Perseguindo ou seguindo.</li>
+	<li>Assediar fotografia ou gravação, incluindo o registro de atividades on-line para fins de assédio.</li>
+	<li>Atenção sexual indesejada, como imagens ou comportamento sexual em espaços onde eles não são apropriados.</li>
+	<li>Padrão de contato social inadequado, como solicitar / assumir níveis inadequados de intimidade com os outros</li>
+	<li>Comunicação individual continuada após solicitações de cessação.</li>
+	<li>Deliberar "passeio" de qualquer aspecto da identidade de uma pessoa sem o seu consentimento, exceto conforme necessário para proteger as pessoas vulneráveis ​​de abuso intencional.</li>
+	<li>Publicação de comunicação privada não assediadora.</li>
 </ul>
 
-We value integrity here at Coding Coach. As such, mentees may not ask for solutions to technical interview take home assessments. We're happy to mentor you in the process of solving difficult questions, but will not provide you with solutions to your assessments as they are meant to reflect your personal skill set.
-
-Members who violate this code of conduct will be approached by someone of the Coding Coach leadership team and asked to stop immediately. Members may also be banned from the Coding Coach slack, blocked on social media, and removed from the website.
-
-If someone makes you or anyone else feel unsafe or unwelcome, please report it as soon as possible. To report an incident of harassment, anonymously or otherwise, please fill out our [report form](https://forms.gle/bcSWqNNcsdo3zDD17).
-
-Our primary goal is to support you. We will listen to you and then help you determine a course of action based on the situation. While harassment may not always result in that member being expelled from the group, depending on the type and severity of harassment. We want to make sure you have all the support you need no matter what that entails, including whether to stay anonymous or not. Whatever decision you make, our priority is your safety.
+Valorizamos a integridade aqui no Coding Coach. Como tal, os orientandos podem não solicitar soluções para entrevistas técnicas para realizar avaliações em casa. Estamos felizes em orientá-lo no processo de solução de perguntas difíceis, mas não forneceremos soluções para suas avaliações, pois elas devem refletir seu conjunto de habilidades pessoais. Os membros que violarem este código de conduta serão abordados por alguém da equipe de liderança do Coding Coach e solicitados a parar imediatamente. Os membros também podem ser banidos da folga do Coding Coach, bloqueados nas mídias sociais e removidos do site. Se alguém fizer você ou alguém se sentir inseguro ou indesejável, informe-o o mais breve possível. Para relatar um incidente de assédio, anonimamente ou de outra forma, preencha nosso [formulário de relatório] (https://forms.gle/bcSWqNNcsdo3zDD17). Nosso principal objetivo é apoiá-lo. Vamos ouvi-lo e, em seguida, ajudá-lo a determinar um curso de ação com base na situação. Embora o assédio nem sempre resulte na expulsão desse membro do grupo, dependendo do tipo e da gravidade do assédio. Queremos garantir que você tenha todo o suporte necessário, não importa o que isso aconteça, incluindo permanecer anônimo ou não. Qualquer que seja sua decisão, nossa prioridade é sua segurança.
 `;
 
 export default cookiesPolicy;

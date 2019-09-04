@@ -1,51 +1,23 @@
-const termsAndConditions = `<h1>Terms and Conditions</h1>
+const termsAndConditions = `<h1>Termos e Condições</h1>
 
 <h4>Last updated: October 03, 2018</h4>
 
-These Terms and Conditions ("Terms", "Terms and Conditions") govern your relationship with www.codingcoach.io website (the "Service") operated by Coding Coach ("us", "we", or "our").
+Estes Termos e Condições ("Termos", "Termos e Condições") regem o seu relacionamento com o site www.codingcoach.io (o "Serviço") operado pelo Coding Coach ("nós", "nós" ou "nosso"). Por favor, leia estes Termos e Condições cuidadosamente antes de usar o Serviço. Seu acesso e uso do Serviço estão condicionados à sua aceitação e conformidade com estes Termos. Estes Termos se aplicam a todos os visitantes, usuários e outras pessoas que acessam ou usam o Serviço. Ao acessar ou usar o Serviço, você concorda em ficar vinculado a estes Termos. Se você não concordar com qualquer parte dos termos, não poderá acessar o Serviço.
 
-Please read these Terms and Conditions carefully before using the Service.
+<h2>Contas</h2>
 
-Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service.
+Ao criar uma conta conosco, você deve fornecer informações precisas, completas e atuais o tempo todo. Não fazer isso constitui uma violação dos Termos, o que pode resultar no cancelamento imediato da sua conta em nosso Serviço. Você é responsável por proteger a senha usada para acessar o Serviço e por quaisquer atividades ou ações sob sua senha, independentemente de sua senha estar em nosso Serviço ou em um serviço de terceiros. Você concorda em não divulgar sua senha a terceiros. Você deve nos notificar imediatamente após tomar conhecimento de qualquer violação de segurança ou uso não autorizado de sua conta. Você não pode usar como nome de usuário o nome de outra pessoa ou entidade ou que não esteja legalmente disponível para uso, um nome ou marca comercial que esteja sujeita a quaisquer direitos de outra pessoa ou entidade que não seja você sem a devida autorização ou um nome que seja caso contrário ofensivo, vulgar ou obsceno.
 
+<h2>Links para outros sites</h2>
 
-By accessing or using the Service you agree to be bound by these Terms. If you disagree with any part of the terms then you may not access the Service.
+Nosso Serviço pode conter links para sites ou serviços de terceiros que não pertencem ou são controlados pelo Coding Coach. O Coding Coach não tem controle e não assume nenhuma responsabilidade pelo conteúdo, políticas de privacidade ou práticas de sites ou serviços de terceiros. Você também reconhece e concorda que o Coding Coach não será responsável, direta ou indiretamente, por qualquer dano ou perda causada ou supostamente causada por ou em conexão com o uso ou confiança em qualquer conteúdo, bens ou serviços disponíveis no através de tais sites ou serviços. É altamente recomendável que você leia os termos e condições e políticas de privacidade de quaisquer sites ou serviços de terceiros que você visitar.
 
-<h2>Accounts</h2>
+<h2>Término</h2>
 
-When you create an account with us, you must provide us information that is accurate, complete, and current at all times. Failure to do so constitutes a breach of the Terms, which may result in immediate termination of your account on our Service.
+Podemos encerrar ou suspender sua conta imediatamente, sem aviso prévio ou responsabilidade, por qualquer motivo, incluindo, sem limitação, se você violar os Termos. Após o término, seu direito de usar o Serviço cessará imediatamente. Se você deseja encerrar sua conta, pode simplesmente interromper o uso do Serviço. Lei aplicável Estes Termos serão regidos e interpretados de acordo com as leis de Baden-Württemberg, na Alemanha, sem levar em consideração suas disposições sobre conflitos de leis. Nossa falha em fazer cumprir qualquer direito ou disposição destes Termos não será considerada uma renúncia a esses direitos. Se qualquer disposição destes Termos for considerada inválida ou inexequível por um tribunal, as demais disposições destes Termos permanecerão em vigor. Estes Termos constituem o contrato completo entre nós em relação ao nosso Serviço e substituem e substituem quaisquer acordos anteriores que possamos ter entre nós em relação ao Serviço.
 
-You are responsible for safeguarding the password that you use to access the Service and for any activities or actions under your password, whether your password is with our Service or a third-party service.
+<h2>Alterações</h2>
 
-You agree not to disclose your password to any third party. You must notify us immediately upon becoming aware of any breach of security or unauthorized use of your account.
-
-You may not use as a username the name of another person or entity or that is not lawfully available for use, a name or trademark that is subject to any rights of another person or entity other than you without appropriate authorization, or a name that is otherwise offensive, vulgar or obscene.
-
-<h2>Links To Other Websites</h2>
-
-Our Service may contain links to third-party web sites or services that are not owned or controlled by Coding Coach.
-
-Coding Coach has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that Coding Coach shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any such content, goods or services available on or through any such web sites or services.
-
-We strongly advise you to read the terms and conditions and privacy policies of any third-party web sites or services that you visit.
-
-<h2>Termination</h2>
-
-We may terminate or suspend your account immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms. Upon termination, your right to use the Service will immediately cease. If you wish to terminate your account, you may simply discontinue using the Service. Governing Law
-
-These Terms shall be governed and construed in accordance with the laws of Baden-Württemberg, Germany, without regard to its conflict of law provisions.
-
-Our failure to enforce any right or provision of these Terms will not be considered a waiver of those rights. If any provision of these Terms is held to be invalid or unenforceable by a court, the remaining provisions of these Terms will remain in effect. These Terms constitute the entire agreement between us regarding our Service, and supersede and replace any prior agreements we might have between us regarding the Service. 
-
-<h2>Changes</h2>
-
-We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will try to provide at least 15 days notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.
-
-By continuing to access or use our Service after those revisions become effective, you agree to be bound by the revised terms. If you do not agree to the new terms, please stop using the Service.
-
-<h2>Contact Us</h2>
-
-If you have any questions about these Terms, please contact us.
-`;
+Reservamo-nos o direito, a nosso exclusivo critério, de modificar ou substituir estes Termos a qualquer momento. Se uma revisão for material, tentaremos fornecer um aviso com pelo menos 15 dias de antecedência para que novos termos entrem em vigor. O que constitui uma mudança material será determinado a nosso exclusivo critério. Ao continuar a acessar ou usar nosso Serviço após a efetivação dessas revisões, você concorda em ficar vinculado aos termos revisados. Se você não concordar com os novos termos, pare de usar o Serviço.`;
 
 export default termsAndConditions;

@@ -1,27 +1,24 @@
-const cookiesPolicy = `<h1>What Are Cookies</h1>
+const cookiesPolicy = `<h1>O que são cookies</h1>
 
-As is common practice with almost all professional websites this site uses cookies, which are tiny text files that are downloaded to your computer, to improve your experience. This information describes what they contain, how we use it and why we sometimes need to store these cookies. This information also covers how you can prevent these cookies from being stored; this may, however, downgrade or 'break' certain elements of the site's functionality.
+Como é prática comum em quase todos os sites profissionais, este site usa cookies, que são pequenos arquivos de texto baixados no seu computador, para melhorar sua experiência. Essas informações descrevem o que elas contêm, como as usamos e por que às vezes precisamos armazenar esses cookies. Essas informações também abordam como você pode impedir que esses cookies sejam armazenados; isso pode, no entanto, fazer o downgrade ou 'quebrar' certos elementos da funcionalidade do site. Para informações mais gerais sobre cookies, <a href="https://pt.wikipedia.org/wiki/HTTP_cookie">consulte o artigo da Wikipedia sobre cookies.</a>
 
-For more general information on cookies see the <a href="https://en.wikipedia.org/wiki/HTTP_cookie">Wikipedia article on HTTP Cookies</a>.
+<h2>Desativando Cookies</h2>
 
-<h2>Disabling Cookies</h2>
+Você pode impedir a configuração de cookies ajustando as configurações do seu navegador (consulte a ajuda do seu navegador para obter instruções sobre como fazer isso). Esteja ciente de que a desativação de cookies afetará a funcionalidade deste e de muitos outros sites que você visita; desativar cookies geralmente resultará na desativação de determinadas funcionalidades e recursos do site. É recomendável que você deixe os cookies ativados.
 
-You can prevent the setting of cookies by adjusting the settings on your browser (see your browser's help for instructions on how to do this). Be aware that disabling cookies will affect the functionality of this and many other websites that you visit; disabling cookies will usually result in also disabling certain functionality and features of the site. It is recommended that you leave cookies enabled.
+<h2>Os cookies que criamos</h2>
 
-<h2>The Cookies We Set</h2>
+*  **Cookies relacionados à conta** - Se você criar uma conta conosco, usaremos cookies para o gerenciamento do processo de inscrição e administração geral. Esses cookies geralmente serão excluídos quando você sair do sistema, porém, em alguns casos, eles poderão permanecer posteriormente para lembrar as preferências do seu site ao sair.
+* **Cookies relacionados ao login** - Usamos cookies para indicar se você está logado. Isso impede que você precise fazer login sempre que visitar uma nova página. Esses cookies geralmente são removidos ou limpos quando você efetua logout para garantir que você possa acessar apenas recursos e áreas restritas ao efetuar login.
 
-*  **Account related cookies** - If you create an account with us then we will use cookies for the management of the signup process and general administration. These cookies will usually be deleted when you log out however in some cases they may remain afterwards to remember your site preferences when logged out.
-* **Login related cookies** - We use cookies to indicate whether you are logged in. This prevents you from having to log in every single time you visit a new page. These cookies are typically removed or cleared when you log out to ensure that you can only access restricted features and areas when logged in.
-
-<h2>Third Party Cookies</h2>
+<h2>Cookies de terceiros</h2>
 
 In some special cases we also use cookies provided by trusted third parties, as detailed below:
 
-* This site uses Google Analytics which is one of the most widespread and trusted analytics solution on the web for helping us to understand how you use the site and ways that we can improve your experience. These cookies may track things such as how long you spend on the site and the pages that you visit so we can continue to produce engaging content. For more information on the cookies set by Google Analytics, see <a href="https://support.google.com/analytics/answer/6004245">Google's Analytics privacy statement</a>.
+Em alguns casos especiais, também usamos cookies fornecidos por terceiros confiáveis, conforme detalhado abaixo: * Este site usa o Google Analytics, que é uma das soluções de análise mais difundidas e confiáveis ​​da Web, para nos ajudar a entender como você usa o site e as maneiras. para que possamos melhorar sua experiência. Esses cookies podem rastrear itens como quanto tempo você gasta no site e as páginas visitadas, para que possamos continuar produzindo conteúdo atraente. Para mais informações sobre os cookies definidos pelo Google Analytics, consulte a declaração de privacidade do Google Analytics.
 
-<h2>More Information</h2>
+<h2>Mais Informações</h2>
 
-If you are unsure of whether certain cookies are required for the correct operation of the site, we recommend you leave the cookies in question enabled to avoid inadvertently degrading your experience. If you are still looking for more information then you can contact us via email at <codingcoachio@gmail.com>.
-`;
+Se você não tiver certeza se determinados cookies são necessários para a operação correta do site, recomendamos que você deixe os cookies em questão ativados para evitar degradar inadvertidamente sua experiência.`;
 
 export default cookiesPolicy;
