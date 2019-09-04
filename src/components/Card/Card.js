@@ -140,6 +140,7 @@ const Card = ({
           </h2>
           <h4 className="title">{mentor.title}</h4>
           {description}
+          {mentor.price}
         </div>
       </>
     );
