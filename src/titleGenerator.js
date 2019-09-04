@@ -1,4 +1,6 @@
-import countries from 'svg-country-flags/countries.json';
+// import countries from 'svg-country-flags/countries.json';
+import countries from './utils/cidades.json';
+
 import ISO6391 from 'iso-639-1';
 
 export const prefix = 'Coding Coach';

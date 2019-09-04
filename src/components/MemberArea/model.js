@@ -1,5 +1,7 @@
 import ISO6391 from 'iso-639-1';
-import countries from 'svg-country-flags/countries.json';
+// import countries from 'svg-country-flags/countries.json';
+import countries from './utils/cidades.json';
+
 import tags from './tags';
 
 const languages = ISO6391.getLanguages(ISO6391.getAllCodes());

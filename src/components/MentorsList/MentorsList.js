@@ -51,7 +51,7 @@ const MentorsList = props => {
       ready &&
       !hasMentors && (
         <div className="nothing-to-show">
-          ¯\_(ツ)_/¯ Wow, we can't believe it. We have nothing for you!
+          ¯\_(ツ)_/¯ Que estranho... Não tem nada aqui!
         </div>
       )
     );
