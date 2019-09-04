@@ -81,6 +81,7 @@ class App extends Component {
       tag,
       country,
       name,
+      price,
       language,
       showFavorite,
       favorites,
@@ -88,6 +89,7 @@ class App extends Component {
     return (
       (!tag || mentor.tags.includes(tag)) &&
       (!country || mentor.country === country) &&
+      (!price || mentor.price === price) &&
       (!name || mentor.name === name) &&
       (!language ||
         (mentor.spokenLanguages &&
@@ -149,6 +151,7 @@ class App extends Component {
       tag: permalink.get('technology'),
       country: permalink.get('country'),
       name: permalink.get('name'),
+      price: permalink.get('price'),
       language: permalink.get('language'),
     });
   }
@@ -216,6 +219,13 @@ class App extends Component {
               />
               {/* <SocialLinks /> */}
               <nav className="sidebar-nav">
+                <ModalContent
+                  policyTitle={'Como Funciona'}
+                  content={'como-funciona'}
+                  handleModal={(title, content) =>
+                    this.handleModal(title, content)
+                  }
+                />
                 <ModalContent
                   policyTitle={'Política de Cookies'}
                   content={'cookies-policy'}

@@ -75,6 +75,14 @@ export default {
     })),
     validate: options => !!options.length,
   },
+  price: {
+    label: 'Preço da Aula',
+    type: 'text',
+    defaultValue: '',
+    maxLength: 7,
+    helpText: 'Preço por uma aula de 1 hora',
+    validate: value => !!value && (value.length > 3 && value.length <= 7),
+  },
   tags: {
     label: 'Tags',
     type: 'tags',
