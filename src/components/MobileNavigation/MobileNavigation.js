@@ -31,6 +31,11 @@ function MobileNavigation(props) {
 
       <ContentWrapper>
         <ModalContent
+          policyTitle={'Como Funciona'}
+          content={'como-funciona'}
+          handleModal={(title, content) => handleModal({ title, content })}
+        />
+        <ModalContent
           policyTitle={'Política de Cookies'}
           content={'cookies-policy'}
           handleModal={(title, content) => handleModal({ title, content })}

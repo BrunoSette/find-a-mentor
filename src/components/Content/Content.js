@@ -3,6 +3,7 @@ import cookiesPolicy from '../../contents/cookiesPolicy';
 import termsAndConditions from '../../contents/termsAndConditions';
 import privacyPolicy from '../../contents/privacyPolicy';
 import codeOfConduct from '../../contents/codeOfConduct.js';
+import comoFunciona from '../../contents/comoFunciona.js';
 
 import './Content.css';
 
@@ -11,6 +12,7 @@ const Contents = {
   'terms-conditions': termsAndConditions,
   'privacy-policy': privacyPolicy,
   'code-conduct': codeOfConduct,
+  'como-funciona': comoFunciona,
 };
 
 export default class Content extends Component {
