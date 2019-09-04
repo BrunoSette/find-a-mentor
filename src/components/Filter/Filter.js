@@ -61,7 +61,7 @@ export default class Filter extends Component {
           Filtro{' '}
           <span id="mentorCount">
             {this.props.mentorCount}
-            {this.props.mentorCount > 1 ? 'Professoresss' : 'Professor'}
+            {this.props.mentorCount > 1 ? ' Professores' : ' Professor'}
           </span>
           <button
             className="toggle-filter"
