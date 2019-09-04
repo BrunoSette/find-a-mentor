@@ -1,10 +1,10 @@
 export default {
-  GENERIC_ERROR: 'Something went wrong. Please contact us',
-  EDIT_DETAILS_MENTOR_SUCCESS: 'Your details updated successfully',
+  GENERIC_ERROR: 'Algum erro aconteceu. Favor entrar em contato',
+  EDIT_DETAILS_MENTOR_SUCCESS: 'Seus detalhes foram atualizados com sucesso',
   EDIT_DETAILS_APPLICATION_SUBMITTED:
-    "Thanks for joining us! We'll approve your application ASAP.",
+    'Obrigado! Vamos analisar a sua aplicação em breve.',
   EDIT_DETAILS_DELETE_ACCOUNT_CONFIRM:
-    'Are you sure you want to delete your account?',
+    'Tem certeza que deseja apagar sua conta?',
   CARD_APPLY_TOOLTIP:
-    "Click here to Login / Register<br />to get the mentor's details",
+    'Clique aqui para fazer o login ou registrar<br /> para ver os detalhes',
 };
