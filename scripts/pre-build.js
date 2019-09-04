@@ -2,7 +2,7 @@ const fs = require('fs');
 const fetch = require('node-fetch');
 
 (async () => {
-  const mentors = await fetch(`https://api.codingcoach.io/mentors`)
+  const mentors = await fetch(`https://api.provasdaoab.com.br:3000/mentors`)
     .then(data => data.json())
     .then(res => res.data);
 
@@ -26,7 +26,7 @@ const fetch = require('node-fetch');
 
   const breaklink = '\n\t';
   const createUrl = (key, value) =>
-    `<url><loc>https://mentors.codingcoach.io/${
+    `<url><loc>https://api.provasdaoab.com.br:3000/${
       key ? `?${key}=${encodeURIComponent(value)}` : ''
     }</loc></url>`;
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
