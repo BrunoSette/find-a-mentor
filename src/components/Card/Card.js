@@ -39,7 +39,7 @@ const nonLoggedinChannels = () => {
         <div className="icon">
           <i className="fa fa-hand-o-right fa-lg" />
         </div>
-        <p className="type">Apply</p>
+        <p className="type">Entrar</p>
       </button>
     </Tooltip>
   );
