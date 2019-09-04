@@ -50,14 +50,14 @@ function Navigation({ isAuthenticated, onOpenModal }) {
     );
   };
 
-  // return (
-  //   <Nav id="menu">
-  //     <List>
-  //       <Link href="https://codingcoach.io/">Sobre</Link>
-  //       {renderBecomeAMentor()}
-  //     </List>
-  //   </Nav>
-  // );
+  return (
+    <Nav id="menu">
+      <List>
+        <Link href="https://codingcoach.io/">Sobre</Link>
+        {renderBecomeAMentor()}
+      </List>
+    </Nav>
+  );
 }
 
 const Nav = styled.nav`
