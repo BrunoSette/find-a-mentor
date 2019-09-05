@@ -5,7 +5,7 @@ import { act } from 'react-dom/test-utils';
 import nock from 'nock';
 
 it('renders without crashing', () => {
-  nock('https://api.codingcoach.io/mentors')
+  nock('https://api.provasdaoab.com.br:3000/mentors')
     .get()
     .reply(() => []);
   jest.useFakeTimers();
