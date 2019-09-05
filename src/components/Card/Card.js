@@ -140,7 +140,7 @@ const Card = ({
           </h2>
           <h4 className="title">{mentor.title}</h4>
           {description}
-          R$ {mentor.price}
+          <h4 className="title">R${mentor.price} por aula</h4>
         </div>
       </>
     );

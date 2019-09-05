@@ -8,8 +8,10 @@ const languages = ISO6391.getLanguages(ISO6391.getAllCodes());
 const emailPattern = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 const urlPattern = /^https:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_+.~#?&//=]*)$/;
 // const linkedinPattern = /^[A-Za-z0-9-]{3,100}$/;
+const precoPattern = /^\d+([.,]\d{1,2})?$/;
 
 const emailValidation = value => !value || emailPattern.test(value);
+const priceValidation = value => !value || precoPattern.test(value);
 const urlValidation = value => !value || urlPattern.test(value);
 // const linkedinValidation = value => !value || linkedinPattern.test(value);
 
@@ -22,11 +24,11 @@ export default {
     validate: value => !!value && emailValidation(value),
   },
   name: {
-    label: 'Name',
+    label: 'Seu Nome',
     type: 'text',
     defaultValue: '',
     maxLength: 50,
-    helpText: 'Seu nome',
+    // helpText: 'Seu nome',
     validate: value => !!value && (value.length > 3 && value.length <= 50),
   },
   avatar: {
@@ -38,10 +40,11 @@ export default {
     previewImage: true,
   },
   title: {
-    label: 'Title',
+    label: 'Título',
     type: 'text',
     maxLength: 50,
     defaultValue: '',
+    helpText: 'Ex: Professor de Matemática',
     validate: value => !!value && (value.length > 3 && value.length <= 50),
   },
   description: {
@@ -78,10 +81,9 @@ export default {
   price: {
     label: 'Preço da Aula',
     type: 'text',
-    defaultValue: '',
-    maxLength: 7,
-    helpText: 'Preço por uma aula de 1 hora',
-    validate: value => !!value && (value.length > 3 && value.length <= 7),
+    maxLength: 6,
+    helpText: '1 hora de aula em reais Ex: 30,00',
+    validate: priceValidation,
   },
   tags: {
     label: 'Tags',
