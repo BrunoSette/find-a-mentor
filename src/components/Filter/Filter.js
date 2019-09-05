@@ -97,7 +97,7 @@ export default class Filter extends Component {
               data-testid="country-filter-autocomplete"
             />
           </Input>
-          <Input id="name" label="Nome" key="name">
+          <Input id="name" label="Professor" key="name">
             <AutoComplete
               id="name"
               source={names}
@@ -107,7 +107,7 @@ export default class Filter extends Component {
               data-testid="name-filter-autocomplete"
             />
           </Input>
-          <Input id="language" label="Idiomas" key="language">
+          <Input id="language" label="Idioma" key="language">
             <AutoComplete
               id="language"
               source={languages}

@@ -140,7 +140,10 @@ const Card = ({
           </h2>
           <h4 className="title">{mentor.title}</h4>
           {description}
-          <h4 className="title">R${mentor.price} por aula</h4>
+          <h4 className="title">
+            R${mentor.price} por hora.
+            {mentor.aulagratis === 1 ? 'Primeira aula grátis!' : ''}
+          </h4>
         </div>
       </>
     );

@@ -85,6 +85,12 @@ export default {
     helpText: '1 hora de aula em reais Ex: 30,00',
     validate: priceValidation,
   },
+  aulagratis: {
+    label: 'Primeira Aula Grátis?',
+    type: 'select',
+    defaultValue: 'Sim',
+    options: [{ value: 1, label: 'Sim' }, { value: 0, label: 'Não' }],
+  },
   tags: {
     label: 'Tags',
     type: 'tags',
